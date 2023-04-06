@@ -1,0 +1,171 @@
+.section-4 {
+    height: 100vh;
+
+    padding: 60px 243px;
+
+    .sarlavha {
+        text-align: center;
+
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        /* identical to box height */
+
+
+        letter-spacing: -0.02em;
+
+        /* Roxo escuro */
+
+        color: #2B0955;
+
+    }
+
+    .box-4 {
+        display: flex;
+        width: 100%;
+        gap: 150px;
+        align-items: center;
+
+        .matnlar-4 {
+
+            p {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                letter-spacing: -0.02em;
+
+                /* Cinza escuro */
+
+                color: #363636;
+                max-width: 384px;
+                margin-top: 40px;
+            }
+
+            div {
+                display: flex;
+                align-items: center;
+                margin-top: 45px;
+
+                pre {
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 24px;
+                    /* identical to box height */
+
+
+                    letter-spacing: -0.02em;
+                    text-decoration-line: underline;
+
+                    /* Roxo escuro */
+
+                    color: #2B0955;
+
+                }
+
+                img {
+                    margin-right: 20px;
+                }
+
+            }
+        }
+
+        .inputla {
+            margin-top: 50px;
+
+            form {
+                input {
+                    width: 400px;
+                    margin-top: 10px;
+                    margin-bottom: 15px;
+                    padding: 8px 16px;
+                    background: #FFFFFF;
+                    /* Roxo claro */
+
+                    border: 1px solid #AE97CB;
+                    border-radius: 3px;
+                }
+
+                p {
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 21px;
+                    /* identical to box height */
+
+
+                    /* Roxo */
+
+                    color: #7000FF;
+
+                }
+
+                button {
+                    background: #FBC508;
+                    border-radius: 8px;
+                    border: 1px solid #FBC508;
+                   margin-left: 280px;
+
+                    padding: 8px 32px;
+
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 24px;
+                    /* identical to box height */
+
+
+                    color: #2A0953;
+
+                }
+
+            }
+        }
+
+    }
+}
+@media(max-width:500px){
+    .section-4{
+        height: 150vh;
+        padding: 0;
+
+        .sarlavha{
+            display: block;
+
+            h4{
+                font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+letter-spacing: -0.02em;
+
+/* Roxo escuro */
+
+color: #2B0955;
+max-width: 253px;
+margin-left: 130px;
+            }
+        }
+        .box-4{
+            display: block;
+
+            .matnlar-4{
+                padding: 0 24px;
+                p{
+                    font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: -0.02em;
+
+/* Cinza escuro */
+max-width: 311px;
+color: #363636;
+
+                }
+            }
+            .inputla{
+                padding: 0 24px;
+            }
+
+        }
+
+    }
+    
+}
